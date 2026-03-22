@@ -1,14 +1,15 @@
 # audio_pipeline.py
 # placeholder for paradigm's audio → text → response flow
 
+from config import AUDIO_SAMPLE_RATE, AUDIO_CHUNK_SIZE, DEBUG
+
 def capture_audio():
     """
     Placeholder function for capturing microphone audio.
-    In the future, this will:
-    - listen to the mic
-    - stream audio locally
-    - return raw audio data
     """
+    if DEBUG:
+        print(f"[DEBUG] capture_audio() called — sample_rate={AUDIO_SAMPLE_RATE}, chunk={AUDIO_CHUNK_SIZE}")
+
     print("capture_audio() called - audio pipeline not implemented yet.")
     return None
 
@@ -16,11 +17,10 @@ def capture_audio():
 def transcribe_audio(audio_data):
     """
     Placeholder for local speech-to-text.
-    In the future, this will:
-    - convert raw audio to text
-    - run entirely on-device
-    - delete audio immediately after processing
     """
+    if DEBUG:
+        print("[DEBUG] transcribe_audio() called")
+
     print("transcribe_audio() called - STT not implemented yet.")
     return ""
 
@@ -28,10 +28,10 @@ def transcribe_audio(audio_data):
 def process_input_text(text):
     """
     Placeholder for sending text to the companion core.
-    Later, this will:
-    - load the system_companion prompt
-    - generate a grounding, reflective response
     """
+    if DEBUG:
+        print("[DEBUG] process_input_text() called")
+
     print("process_input_text() called - AI core not implemented yet.")
     return "paradigm is not fully online yet, but the pipeline is taking shape."
 
@@ -41,9 +41,16 @@ def run_pipeline():
     High-level placeholder for the full flow:
     audio → text → response
     """
+    if DEBUG:
+        print("[DEBUG] run_pipeline() starting")
+
     audio = capture_audio()
     text = transcribe_audio(audio)
     response = process_input_text(text)
+
+    if DEBUG:
+        print("[DEBUG] run_pipeline() finished")
+
     return response
 
 
