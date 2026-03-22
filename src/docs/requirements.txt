@@ -1,0 +1,16 @@
+# paradigm dependencies
+# (intentionally minimal for now)
+
+# audio processing (future)
+# sounddevice
+# numpy
+
+# local speech-to-text (future)
+# whisper
+# or whispercpp
+
+# local LLM (future)
+# llama-cpp-python
+
+# text-to-speech (future)
+# tts
