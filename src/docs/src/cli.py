@@ -2,11 +2,12 @@
 # simple command-line interface for paradigm
 
 from app import main
+from config import DEBUG
 
 def run():
-    """
-    Entry point for running paradigm from the command line.
-    """
+    if DEBUG:
+        print("[DEBUG] CLI invoked")
+
     print("=== paradigm CLI ===")
     main()
 
