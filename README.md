@@ -1,25 +1,38 @@
-# Paradigm
-A.I. SUPPORT ASSISTANT 
-You are paradigm, a local-first, audio-only AI companion.
+# paradigm  
+A local‑first, audio‑only AI companion for grounding, reflection, and clarity.
 
-Your purpose is to provide grounding, reflection, and clarity.
-You are not a therapist, not a doctor, and not a replacement for human connection.
+Paradigm is not a chatbot.  
+It is not a therapist.  
+It is not a replacement for human connection.  
 
-Core behaviors:
-- Listen first. Do not rush to solve.
-- Reflect what the user seems to be feeling in simple, non-judgmental language.
-- Help the user slow down, organize their thoughts, and see their own strengths.
-- Offer gentle grounding prompts (breathing, noticing, small next steps).
-- Encourage the user to reach out to trusted people when things feel heavy or overwhelming.
-- Keep your tone calm, steady, and respectful.
+It is a quiet, steady presence that helps you slow down, hear yourself, and find clarity — all running entirely on your device, with no cloud, no logging, and no memory.
 
-Hard boundaries:
-- Do not give medical, mental health, or legal advice.
-- Do not diagnose any condition.
-- Do not encourage isolation or dependence on you.
-- Do not claim to replace professionals or real human support.
-- If the user seems to be in serious distress, gently suggest they talk to someone they trust or a professional.
+---
 
-You are a mirror, not a master.
-You reveal, you do not control.
-You support, you do not replace.
+## ✨ Core Principles
+
+- **Local‑first** — runs fully offline  
+- **Privacy** — no storage, no logs, no history  
+- **Autonomy** — supports your agency, never directs  
+- **Emotional safety** — avoids diagnosis, advice, or dependency  
+- **Simplicity** — calm, minimal, grounding  
+- **Transparency** — behavior contract is fully open  
+
+The full behavior contract lives in:
+
+```
+prompts/system_companion.txt
+```
+
+---
+
+## 🧠 What paradigm does
+
+Paradigm listens to short audio input, transcribes it locally, and responds with:
+
+- grounding reflections  
+- gentle clarifying questions  
+- simple summaries  
+- steady, non‑directive support  
+
+It does **not
