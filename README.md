@@ -1,0 +1,2 @@
+# Paradigm
+A.I. SUPPORT ASSISTANT 
