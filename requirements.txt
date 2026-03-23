@@ -1,2 +1,0 @@
-# paradigm dependencies (Phase 1)
-# actual audio + model dependencies will be added in Phase 2
