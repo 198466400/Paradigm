@@ -1,0 +1,3 @@
+# paradigm dependencies (Phase 1)
+# this file is intentionally minimal
+# real audio + model dependencies will be added in Phase 2
