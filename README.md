@@ -6,7 +6,6 @@ Built in collaboration with **Claude (Anthropic)**
 Architecture, vision, and ownership: Dakota Moses (i.c. snow)  
 Constitutional AI mediation layer: Herald-lite v3.0  
 Engine: Mistral AI
-cat > ~/herald-lite/README.md << 'EOF'
 # Paradigm
 ### AI Support Assistant · Dakota Architecture
 
